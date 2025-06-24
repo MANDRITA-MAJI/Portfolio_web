@@ -7,8 +7,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #d7fadd;
-background: linear-gradient(90deg, rgb(223, 248, 227) 0%, rgb(215, 252, 243) 50%, rgb(211, 229, 250) 100%);
+  background-color: #f8ffec;
+  /* background: #d7fadd;
+background: linear-gradient(90deg, rgb(223, 248, 227) 0%, rgb(215, 252, 243) 50%, rgb(211, 229, 250) 100%); */
 }
 
 html {
@@ -68,7 +69,7 @@ a:hover {
     width: 200px;
     border: 2px solid rgb(11, 119, 96);
     border-radius: 5px;
-    box-shadow: 10px 5px 5px rgb(149, 240, 240);
+    box-shadow: 10px 5px 5px rgb(175, 240, 149);
 }
 .logo:hover{
     cursor: default;
@@ -344,6 +345,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  
 }
 
 .article-container {
@@ -364,6 +366,10 @@ article {
 
 article .icon {
   cursor: default;
+}
+.details-container{
+  background: rgb(250, 250, 250);
+
 }
 /* PROJECTS SECTION */
 
